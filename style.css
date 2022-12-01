@@ -3,12 +3,13 @@ nav {
 	background-color: #52BE80;
 	display: flex;
 	flex flex-wrap: wrap;
+	transition: width 2s;
 }
 
 nav a {
 	text-decoration: none;
 	display: block;
-	padding: 0px;
+	padding: 0px;s
 	font-size: 22px;
 	text-align: center;
 	float: center;
@@ -22,7 +23,6 @@ nav a {
 }
 
 nav a:hover {
-	font-size: 25px;
 	background-color: #52BE80;
 	color: yellow;
 }
@@ -34,25 +34,29 @@ body {
 	background-size: 121%;
 }
 
-
 .ELEM {
 	width: 15%;
 	height: 15%;
 	margin-top: 30px;
 	margin-left: 570px;
-
+	border-radius: 10px;
+	border: 2px solid black;
 }
 
 .A {
+	text-shadow: 2px 2px 5px red;
+	color:  #52BE80;
 	margin-left: 515px;
 	font-size: 50px;
 }
 
 .B {
+	margin-top: 20px;
 	font-family:  "Times New Roman", Times, serif;
 	font-size: 30px;
 	border: solid black;
 	background-color: #84e184;
+	border-radius: 10px;
 }
 
 .DMS{
@@ -66,17 +70,23 @@ body {
 	height: 30%;
 	margin-top: 30px;
 	margin-left: 510px;
+	border-radius: 10px;
+	border: 2px solid black;
 }
 .C {
+	text-shadow: 2px 2px 5px red;
+	color:  #52BE80;
 	margin-left: 425px;
 	font-size: 50px;
 }
 
 .D {
+	margin-top: 20px;
 	font-family:  "Times New Roman", Times, serif;
 	font-size: 30px;
 	border: solid black;
-	background-color: #84e184
+	background-color: #84e184;
+	border-radius:10px;
 }
 
 .SHS {
@@ -84,18 +94,24 @@ body {
 	height: 20%;
 	margin-top: 30px;
 	margin-left: 550px;
+	border-radius: 10px;
+	border: 2px solid black;
 }
 
 .E {
+	text-shadow: 2px 2px 5px red;
+	color:  #52BE80;
 	margin-left: 425px;
 	font-size: 50px;
 }
 
 .F {
+	margin-top: 20px;
 	font-family:  "Times New Roman", Times, serif;
 	font-size: 30px;
 	border: solid black;
-	background-color: #84e184
+	background-color: #84e184;
+	border-radius: 10px;
 }
 
 .ABT {
@@ -106,13 +122,21 @@ body {
 }
 
 .G {
+	text-shadow: 2px 2px 5px red;
+	color:  #52BE80;
 	margin-left: 325px;
 	font-size: 30px;
 }
 
 .Oten {
-	margin-left: 550px;
+	margin-right: 600px;
+	margin-left: 525px;
+	margin-top: 20px;
+	font-family:  "Times New Roman", Times, serif;
 	font-size: 30px;
+	border: solid black;
+	background-color: #84e184;
+	border-radius: 10px;
 }
 
 .Cntct {
@@ -120,36 +144,64 @@ body {
 	height: 30%;
 	margin-top: 30px;
 	margin-left: 470px;	
+	border-radius: 10px;
+	border: 2px solid black;
 }
 
 .K {
-	margin-left: 450px;
+	text-shadow: 2px 2px 5px red;
+	color:  #52BE80;
+	margin-left: 475px;
 	font-size: 40px;
+ 	border-radius: 20px;
 }
 
 .AD{
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-right: 350px;
+	margin-left: 350px;
 	font-size: 30px;
 	text-align: center;
+	border: 2px solid black;
+	background-color: #84e184;
 }
 
 .L {
-	margin-left: 500px;
+	border: solid black;
+	background-color: #84e184;
+	border-radius: 20px;
+	margin-right: 350px;
+	margin-left: 350px;
+	border: solid 2px;
 	font-size: 30px;
 }
 
 .M {
-	margin-left: 400px;
+	border: solid black;
+	background-color: #84e184;
+	border-radius: 20px;
+	border: solid 2px;
+	margin-right: 350px;
+	margin-left: 350px;
 	font-size: 30px;
 }
 
 .heading{
-	border: 1px;
+	text-shadow: 2px 2px 5px red;
 	text-align: center;
 	font-size: 60px;
-	margin-top: 1px;
-	margin-bottom: 1px;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-top: 40px;
+	margin-bottom: 40px;
 	font-family: Helvetica;
 	color:  #52BE80;
+}
+
+.My{
+	text-shadow: 2px 2px 5px yellow;
+	color: #003300;	
 }
 
 .DM{
@@ -177,16 +229,17 @@ body {
 }
 
 table{
-	border: 3px solid;
+	border: 2px solid;
 	width: 90%;
 	height: 30%;
 	margin-left: 70px;
 	margin-right: 10px;
 	background-color:  #52BE80;
-	border-radius: 30px;
+	border-radius: 10px;
 }
 
 th{
+	text-align: center;
 	font-size: 35px;
 	border: 2px solid;
 	background-color: #EC7063 ;
@@ -207,5 +260,31 @@ td{
 	margin-left: 350px;
 	margin-top: 50px;
 
+}
+
+.carousel-item{
+	border: solid 2px;
+	background-color:black; 
+	margin-top: 1px;
+	margin-left: 355px;
+	margin-bottom: 75px;
+	width: 50%;
+	height: 50%;
+}
+
+.alb{
+	text-shadow: 2px 2px 5px red;
+	text-align: center;
+	font-size: 60px;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-family: Helvetica;
+	color:  #52BE80;
+}
+
+.aud{
+	display: none;
 }
 
